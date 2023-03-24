@@ -1,0 +1,33 @@
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+ACCOUNTS = [
+    "GC76DS44Q6DJ5P6DCOLWINT7SMPEO7JQUKBWLCFXOKS4NHSQ7WO5EURS",
+    "GCTYTHIPCBUNFMKHPCUEWFDL42MTIU2XKMYTDI6F5J35HKMNIXSKEURD"
+]
+
+[DOCUMENTATION]
+ORG_NAME = "EURS Inc"
+ORG_URL = "https://eurs.me/"
+#ORG_LOGO = "https://eurs.me/stellar-logo.png"
+ORG_DESCRIPTION = "Private club for Montelibero movement friends"
+ORG_PHYSICAL_ADDRESS = "Montenegro"
+ORG_OFFICIAL_EMAIL = "info@eurs.me"
+
+[[CURRENCIES]]
+code = "EURS"
+issuer = "GC76DS44Q6DJ5P6DCOLWINT7SMPEO7JQUKBWLCFXOKS4NHSQ7WO5EURS"
+is_asset_anchored = true
+anchor_asset_type = "fiat"
+anchor_asset = "EUR"
+redemption_instructions = "Just contact to our contact bot: https://eurs_robot"
+attestation_of_reserve = "https://eurs.me/reserves"
+desc = "The asset is stabecoin based on EUR."
+#image = "https://eurs.me/stellar-logo-eurs.png"
+display_decimals = 2
+
+[[CURRENCIES]]
+code = "EURD"
+issuer = "GCTYTHIPCBUNFMKHPCUEWFDL42MTIU2XKMYTDI6F5J35HKMNIXSKEURD"
+is_asset_anchored = false
+desc = "The asset is technical one for EURS."
+#image = "https://eurs.me/stellar-logo-eurd.png"
+display_decimals = 2
