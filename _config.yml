@@ -1,0 +1,4 @@
+safe: true
+#source: /
+timezone: Europe/Podgorica
+theme: jekyll-theme-midnight
