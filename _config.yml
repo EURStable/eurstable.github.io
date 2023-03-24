@@ -2,3 +2,4 @@ safe: true
 #source: /
 timezone: Europe/Podgorica
 theme: jekyll-theme-midnight
+include: [.well-known]
