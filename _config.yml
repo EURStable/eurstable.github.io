@@ -1,5 +1,10 @@
-safe: true
+safe: false
 #source: /
 timezone: Europe/Podgorica
+lang: ru-RU
+plugins:
+  - jekyll-seo-tag
 theme: jekyll-theme-midnight
-include: [.well-known]
+include:
+  - .well-known
+
